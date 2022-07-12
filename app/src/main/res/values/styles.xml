@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Customize theme with Full Screen Mode -->
+
+    <!-- Toolbar title -->
+    <!-- End of Toolbar title -->
+
+    <!-- Login Screen Style -->
+
+    <style name="LoginEditTextGroupStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_edit_text_height</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/dimen_8dp</item>
+        <item name="android:paddingRight">@dimen/dimen_8dp</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textColorHint">@color/login_edit_text_color_hint</item>
+        <item name="android:textColor">@color/login_edit_text_text_color</item>
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+    </style>
+
+    <style name="LoginImageIconStyle">
+        <item name="android:layout_width">@dimen/login_edit_text_icon_width_height</item>
+        <item name="android:layout_height">@dimen/login_edit_text_icon_width_height</item>
+        <item name="android:layout_marginStart">@dimen/dimen_12dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_12dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="font_style_regular" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/m_r</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="header_style">
+        <item name="android:fontFamily">@font/m_r</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="font_style_medium" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/m_m</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="facebook_btn_style" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/m_m</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#0094FF</item>
+    </style>
+
+</resources>

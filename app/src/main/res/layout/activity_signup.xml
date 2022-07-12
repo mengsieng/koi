@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#333333">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chevron_left"
+        android:layout_marginVertical="15dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        style="@style/header_style"
+        android:textColor="@color/color_background"
+        android:textAlignment="center"
+        android:paddingVertical="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#767676"
+        android:text="@string/phone_number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:hint="@string/phone_place_holder"
+        android:textColorHint="@color/gray"
+        style="@style/font_style_regular"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:buttonTint="@color/koi_green"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_agree_with_all_the_terms_of_use"
+            style="@style/font_style_regular"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/sign_up"
+        style="@style/font_style_regular"
+        android:textColor="@color/white"
+        android:background="@drawable/solid_button"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fi_user_check"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            android:textColor="@color/white"
+            style="@style/font_style_regular"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            style="@style/font_style_medium"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

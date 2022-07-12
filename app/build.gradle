@@ -1,0 +1,92 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "ig.core.android"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
+                                onesignal_app_id               : "324d6eb0-9be9-4251-a56d-e91881630abb",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "308662715232"]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+    androidExtensions {
+        experimental = true
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.3.0-alpha01'
+    implementation 'com.google.android.material:material:1.3.0-alpha01'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta8'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    // Multidex
+    implementation 'androidx.multidex:multidex:2.0.1'
+    // Rx
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    // Anko Commons
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
+    // Network connection
+    implementation 'com.github.TuonBondol:NetworkUtil:1.0.2'
+    // Validation
+    implementation 'com.github.TuonBondol:ValidationUtil:1.0.8'
+    // Keyboard
+    implementation 'com.github.TuonBondol:KeyboardUtil:1.0.1'
+    // TextView Util
+    implementation 'com.github.TuonBondol:TextViewUtil:1.0.8'
+    // Crop circle layout
+    implementation 'com.github.TuonBondol:AndroidCropCircleLayout:1.0.3'
+    // Circle image
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.eightbitlab:blurview:1.3.4'
+    implementation 'net.gotev:uploadservice:3.4.1'
+    // Graph Library
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
+    implementation 'com.google.firebase:firebase-core:17.4.4'
+    implementation 'com.google.firebase:firebase-messaging:20.2.3'
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.8'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha06'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-alpha06'
+}
+
+apply plugin: 'com.google.gms.google-services'
