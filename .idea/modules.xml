@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/koi.iml" filepath="$PROJECT_DIR$/.idea/modules/koi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/koi.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/koi.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/koi.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/koi.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/koi.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/koi.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/koi.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/koi.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-core-mvvm.iml" filepath="$PROJECT_DIR$/.idea/modules/android-core-mvvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-core-mvvm.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-core-mvvm.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-core-mvvm.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-core-mvvm.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-core-mvvm.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-core-mvvm.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-core-mvvm.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-core-mvvm.app.unitTest.iml" />
     </modules>
   </component>
 </project>

@@ -61,7 +61,7 @@ abstract class BaseActivity : AppCompatActivity() {
         tvToolbarTitle.text = toolbarTitle
     }
 
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item?.itemId
         return when (id) {
             android.R.id.home -> {

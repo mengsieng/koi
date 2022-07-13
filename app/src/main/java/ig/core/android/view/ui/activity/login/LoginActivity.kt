@@ -8,6 +8,6 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_promotion)
+        setContentView(R.layout.fragment_pay)
     }
 }

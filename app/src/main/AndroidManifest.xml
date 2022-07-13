@@ -22,10 +22,10 @@
             android:name="ig.core.android.view.ui.activity.login.LoginActivity"
             android:screenOrientation="fullSensor"
             android:noHistory="true"
-            android:windowSoftInputMode="stateHidden">
+            android:windowSoftInputMode="stateHidden"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -37,7 +37,8 @@
 
         <activity android:name="ig.core.android.view.ui.activity.home.HomeActivity" />
         <activity android:name=".view.ui.activity.detail.DetailActivity" />
-        <receiver android:name=".service.broadcast.MyReceiver">
+        <receiver android:name=".service.broadcast.MyReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="ig.core.android" />
             </intent-filter>
