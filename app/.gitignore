@@ -1,1 +1,12 @@
-/build
+.gradle/
+build/
+
+local.properties
+
+*.log
+
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
