@@ -4,11 +4,42 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!-- Action section-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingHorizontal="20dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/ic_heart"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/ic_email"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_setting"/>
+
+    </LinearLayout>
+    <!-- End Action section-->
+
     <!-- Greeting section-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginBottom="10dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -55,10 +86,10 @@
             android:padding="10dp"
             android:layout_gravity="center">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Re"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_reward"/>
 
         </LinearLayout>
 
@@ -70,6 +101,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -81,12 +113,18 @@
             android:orientation="horizontal"
             android:gravity="center">
 
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_pick_up"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 style="@style/font_style_medium"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:text="@string/pick_up"/>
 
         </LinearLayout>
@@ -101,12 +139,18 @@
             android:gravity="center"
             android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_self_order"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 style="@style/font_style_medium"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:text="@string/self_orders"/>
 
         </LinearLayout>
@@ -120,12 +164,18 @@
             android:gravity="center"
             android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_delivery"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 style="@style/font_style_medium"
-                android:textSize="12sp"
+                android:textSize="10sp"
                 android:text="@string/delivery"/>
 
         </LinearLayout>
@@ -135,6 +185,6 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
