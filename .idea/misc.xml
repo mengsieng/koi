@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable-xxxhdpi/ic_china.xml" value="0.1625" />
         <entry key="app/src/main/res/drawable/back_press_white_icon_24dp.xml" value="0.1625" />
         <entry key="app/src/main/res/drawable/border_button.xml" value="0.1625" />
+        <entry key="app/src/main/res/drawable/round_button_9.xml" value="0.1625" />
         <entry key="app/src/main/res/drawable/solid_button.xml" value="0.1625" />
         <entry key="app/src/main/res/drawable/solid_circle_button.xml" value="0.1625" />
         <entry key="app/src/main/res/drawable/underline_edit_text.xml" value="0.1625" />
@@ -15,7 +16,7 @@
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.2577304107974274" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.25" />
         <entry key="app/src/main/res/layout/default_toolbar.xml" value="0.2671875" />
-        <entry key="app/src/main/res/layout/fragment_promotion.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_promotion.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_home.xml" value="0.2671875" />
       </map>
     </option>
