@@ -1,0 +1,440 @@
+<resources>
+    <string name="app_name">KOI Thé 柬埔寨。</string>
+    <string name="channel_id">通知渠道。</string>
+    <string name="welcome_desc">注册 KOI 会员计划，以接收更新、收集积分并获得独家会员福利。</string>
+    <string name="title_activity_maps"> 地图。</string>
+    <string name="facebook_app_id">295704917227559</string>
+    <string name="fb_login_protocol_scheme">fb295704917227559</string>
+    <string name="item_top"><![CDATA[ &#160;<font color=#000000 size=\'28\'>%1$s : </font><font color=#7e7e7e size=\'18\'><b> %2$s </b></font>]]></string>
+    <string name="item_single"><![CDATA[ <font color=#000000 size=\'28\'><b>%1$s</b></font><br>]]></string>
+    <string name="item_list"><![CDATA[ &#160;<font color=#000000 size=\'28\'>%1$s : </font><font color=#7e7e7e size=\'18\'> <b>%2$s</b> </font><br>]]></string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="item_address_distance"><![CDATA[ <font color=#000000 size=\'18dp\'><b>%1$s </b></font><font color=#7e7e7e size=\'12\'><small><small>&#160;  %2$s </small></small></font>]]></string>
+    <string name="error_msg">" 对不起，无法获取数据。"</string>
+    <string name="btn_retry">重试</string>
+    <string name="error_msg_no_internet">未连接到互联网。</string>
+    <string name="error_msg_timeout">服务器花了太长时间响应。</string>
+    <string name="error_msg_unknown">一个意料之外的问题发生了。</string>
+    <string name="header_membership">会员。</string>
+    <string name="membershipcard">会员卡</string>
+    <string name="create_one">创建一个。</string>
+    <string name="don_t_have_an_account_yet">已经有账户了吗？</string>
+    <string name="forgot_your_password">忘记了密码？</string>
+    <string name="sign_in">登录</string>
+    <string name="inbox">收件箱</string>
+    <string name="password">密码</string>
+    <string name="email_tel">电子邮件/电话</string>
+    <string name="welcome">欢迎光临</string>
+    <string name="connect_with_facebook">与 Facebook 连接</string>
+    <string name="forgot_your_passwords">忘记了密码？</string>
+    <string name="forgot_password_desc">别担心。重设密码很容易，只需告诉我们您注册的电话号码或电子邮件。</string>
+    <string name="email_address"><font size="12">电子邮件地址/ 电话号码。 </font></string>
+    <string name="reset_your_password">重置密码。</string>
+    <string name="sign_up">注册</string>
+    <string name="home_nav_label">首页</string>
+    <string name="outlets_nav_label">门市</string>
+    <string name="order_nav_label">订单</string>
+    <string name="koi_pay_nav_label">KOI 付费</string>
+    <string name="account_and_settings"><![CDATA[帐户和设置]]></string>
+    <string name="hello">您好,</string>
+    <string name="you_re_a_black_member">您是</string>
+    <string name="reward_point">奖励泡泡。</string>
+    <string name="reward">奖励泡泡。</string>
+    <string name="reward_details">奖励细节</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="reward_points_30_points">REWARD POINTS 30 POINTS</string>
+    <string name="edit_profile_info">编辑个人资料</string>
+    <string name="set_up_pass_code_pin">设置密码PIN</string>
+    <string name="passcode_lock">密码锁</string>
+    <string name="help">帮助与支持</string>
+    <string name="privacy_policy">隐私策略。</string>
+    <string name="sign_out">退出登录</string>
+    <string name="add_card">添加卡片 </string>
+    <string name="your_balance">您的余额</string>
+    <string name="deactivate_card">停用卡</string>
+    <string name="done">做完了</string>
+    <string name="change_password">更改密码</string>
+    <string name="collect_awesome_stuffs">收集令人敬畏的食物。</string>
+    <string name="first_name">名字</string>
+    <string name="map_list">地图清单。</string>
+    <string name="direct">方向</string>
+    <string name="call">打电话</string>
+    <string name="city">城市</string>
+    <string name="phone"> 电话号码</string>
+    <string name="confirm">确认</string>
+    <string name="total_amount">总计</string>
+    <string name="confirm_order">确认订单</string>
+    <string name="add_to_basket">加到购物篮</string>
+    <string name="item_total">总计</string>
+    <string name="_120">120</string>
+    <string name="add_items">添加项目</string>
+    <string name="current_password">当前密码</string>
+    <string name="new_password">新密码</string>
+    <string name="send">发送</string>
+    <string name="_1337999">#1337999</string>
+    <string name="awesomeeee">太棒了。</string>
+    <string name="see_more">看更多...</string>
+    <string name="best_tea_houses_in_town">镇上最好的茶馆</string>
+    <string name="verification">验证。</string>
+    <string name="submit">提交</string>
+    <string name="pin">别针。*</string>
+    <string name="select_category">选择类别</string>
+    <string name="_1_70">$ 1.70</string>
+    <string name="pick_up__">自取</string>
+    <string name="order_complete">完成订单。</string>
+    <string name="tompoung_00032">TOMPOUNG-00032</string>
+    <string name="order_id_d_koi_ifl_toul">Order Id #D-KOI IFL TOUL</string>
+    <string name="order_at_2020_03_3884_pm">Order at 2020/03/3884 PM</string>
+    <string name="phone_place_holder">068-68-68-686</string>
+    <string name="suggestion_message">建议信息。</string>
+    <string name="something_when_wrong">Something When wrong</string>
+    <string name="are_you_sure_you_want_to_log_out">您确认要注销吗？</string>
+    <string name="please_choose_your_ice_level">Please choose your ice level*</string>
+    <string name="history">历史记录</string>
+    <string name="item_name">item name</string>
+    <string name="forgot_passcode">忘记了密码？</string>
+    <string name="change_passcode">更改密码</string>
+    <string name="turn_passcode_off">关闭密码</string>
+    <string name="you_can_sign_out_to_turn_off_your_passcode">您可以退出以关闭密码。</string>
+    <string name="pay_by_membership_card"><font color="#fff" size="13">KOI 会员卡</font> \n<font color="#000000" size="10">(您会得到奖励和会员积分)</font></string>
+    <string name="pay_by_aba_card"><font color="#fff" size="13">ABA 付款。</font>\n<font color="#858585" size="10">点击此处通过ABA银行付款</font><font color="#fff" size="9">\n(您不会得到奖励和会员积分)</font></string>
+    <string name="customer_feedback"><u>客户反馈</u>.</string>
+    <string name="select_payment_option">选择付款方式</string>
+    <string name="phone_number">电话号码</string>
+    <string name="i_agree_with_all_the_terms_of_use">我同意所有使用条款</string>
+    <string name="already_have_an_account">已经有账户了吗？</string>
+    <string name="login">登录 </string>
+    <string name="pin_code">别针代码</string>
+    <string name="resend_pin">发送别针</string>
+    <string name="your_card_collection">您的卡片收藏</string>
+    <string name="coming_soon">马上就来 </string>
+    <string name="terms_of_use">使用期限	</string>
+    <string name="make_this_app_more"> 让我们让这个应用程序更加友好</string>
+    <string name="version">改编本</string>
+    <string name="last_name">贵姓</string>
+    <string name="email">电子邮件</string>
+    <string name="gender">性别</string>
+    <string name="birthday">生日</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="let_keep_in_touch">我们保持联系吧</string>
+    <string name="self_orders">自己点菜</string>
+    <string name="pick_up">自取	</string>
+    <string name="delivery">送外卖</string>
+    <string name="location">位置</string>
+    <string name="continues">继续购物</string>
+    <string name="checkout">离开前请检查</string>
+    <string name="description">描述</string>
+    <string name="total_items">总计</string>
+    <string name="member_point">成员点</string>
+    <string name="continues_shopping">继续购物</string>
+    <string name="cancel">取消</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="your_item_s_has_been_added_to_the_basket">您的物品已添加到购物篮</string>
+    <string name="success">成功</string>
+    <string name="choose_option">选择选项</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="koi_card_number">KOI 卡号</string>
+    <string name="serial_number">序列号</string>
+    <string name="activate_card">激活卡。</string>
+    <string name="contact_outlet">联系插座。</string>
+    <string name="no_item_in_cart">没有清单资料</string>
+    <string name="drink_menu">饮料菜单</string>
+    <string name="drink_of_the_month">本月料品</string>
+    <string name="log_out">退出登录</string>
+    <string name="enter_a_passcode_of_4_degits">输入4位密码</string>
+    <string name="re_enter_new_passcode">重新输入新的密码</string>
+    <string name="passcode_is_incorrect">密码正确</string>
+    <string name="passcode_do_not_match">密码不匹配</string>
+    <string name="change_your_passcode">更改密码更改密码</string>
+    <string name="verify_passcode">验证密码</string>
+    <string name="verify_passcode_of_4_digits">验证4位密码</string>
+    <string name="passcode_setting">密码设置</string>
+    <string name="password_must_contain_number_capital_and_lower_letters_at_least_8_characters">密码必须包含：数字，大写字母和小写字母，至少8个字符</string>
+    <string name="password_not_match">密码不匹配</string>
+    <string name="your_location_services_is">您的位置信息服务已关闭。请打开它以获得最近的分支机构，否则单击以查看更多</string>
+    <string name="dismiss"> 解雇</string>
+    <string name="select_your_birthday">选择您的生日</string>
+    <string name="address">地址</string>
+    <string name="send_pin">发送别针</string>
+    <string name="total_price">总价。</string>
+    <string name="amount">数量</string>
+    <string name="koi_vatanak">KOI Vatanak</string>
+    <string name="include_vat">(包括增值税)</string>
+    <string name="order_number">订单号</string>
+    <string name="order_detail">订单详细信息</string>
+    <string name="image">Image</string>
+    <string name="size">罩杯尺寸。</string>
+    <string name="medium">中。</string>
+    <string name="small">小。</string>
+    <string name="coffee_jelly_oolong_milk_tea">Coffee Jelly Oolong Milk Tea</string>
+    <string name="money">$</string>
+    <string name="oops">哎呀！</string>
+    <string name="available">可获得的</string>
+    <string name="unavailable">无法得到的</string>
+    <string name="us">美元</string>
+    <string name="scan_to_pay">扫描支付。</string>
+    <string name="content_description">描述</string>
+    <string name="pay">付费</string>
+    <string name="let_s_enjoy_some_good_tea">让我们来喝点好茶。</string>
+    <string name="transaction_detail">交易明细</string>
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="aba_pay"> ABA 付款。</string>
+    <string name="align_frame_with_qr_code">使农场与QR码对齐</string>
+    <string name="khmer">ខ្មែរ</string>
+    <string name="ok">确定。</string>
+    <string name="china">中文</string>
+    <string name="english">English</string>
+    <string name="please_select_your_language">请选择您的语言。</string>
+    <string name="chose_language">选择语言。</string>
+    <string name="china_language">中國</string>
+    <string name="black_member">黑会员</string>
+    <string name="silver_member">银会员</string>
+    <string name="gold_member">黄金会员</string>
+    <string name="large">大。</string>
+    <string name="confirm_pin_code">确认密码</string>
+    <string name="enter_a_pin_code_of_6_digits">输入6位数的密码</string>
+    <string name="your_favorite_order">你最喜欢的订单</string>
+    <string name="add_item">添加项目</string>
+    <string name="warning">警告</string>
+    <string name="are_you_sure_to_delete_this_item">您确定要删除此项目吗？</string>
+    <string name="your_account_has_been_blocked">您的账户已被封锁</string>
+    <string name="your_account_has_been_using_by_another_device">您的账户一被其他建议使用。 </string>
+    <string name="no_internet_connection">没有网络连接。</string>
+    <string name="your_recent_order">" 您最近的订单 "</string>
+    <string name="date">日期。</string>
+    <string name="top_up_to_card">充值卡</string>
+    <string name="branch">分会</string>
+    <string name="redeem_points">兑换泡泡点</string>
+    <string name="points">点。</string>
+    <string name="point">点。</string>
+    <string name="sign_successfully"> 成功注册。</string>
+    <string name="location_permission_deny"> 位置权限拒绝。</string>
+    <string name="no_location_detected">未检测到位置。确保在设备上启用位置。</string>
+    <string name="cant_connect_to_server"> 无法连接到服务器</string>
+    <string name="for_security_reason">"出于安全原因，请重设密码 "</string>
+    <string name="please_input_field">请输入栏位。</string>
+    <string name="invalid_email_address">无效的邮件地址。</string>
+    <string name="here_is_your_otp">这是您的OTP。</string>
+    <string name="please_input_phone_number">请输入电话号码。</string>
+    <string name="invalid_phone_number">无效的电活号码。</string>
+    <string name="no_promotion_list">没有促销清单</string>
+    <string name="authentiction_successed">认证成功。</string>
+    <string name="authentication_failed">验证失败。</string>
+    <string name="koi_the_cambodia">KOI Thé 柬埔寨。</string>
+    <string name="log_in_using_your_finger_print_credential">使用您的指纹凭证登录。</string>
+    <string name="use_account_password">使用账号密码。</string>
+    <string name="membership">会员。</string>
+    <string name="you_have_not_membership_card_yet">" 您还没有会员卡。"</string>
+    <string name="your_device_is_not_support_google_play_play_services">" 服务不支持您的设备。"</string>
+    <string name="error_logout">错误登出。</string>
+    <string name="you_dont_have_customer_wallet_id">您没有客户的钱包身份证件。</string>
+    <string name="you_are_more_than_50m_from_the_outlet">"您与KOI的距离为50米 "</string>
+    <string-array name="province_array">
+        <item>卜迭棉芷省</item>
+        <item>马德望</item>
+        <item>磅真省</item>
+        <item>磅清扬</item>
+        <item>实居省</item>
+        <item>磅通省</item>
+        <item>贡吥省</item>
+        <item>干啦省</item>
+        <item>国公</item>
+        <item>桔井省 </item>
+        <item>蒙多基里</item>
+        <item>金边</item>
+        <item>柏威夏</item>
+        <item>柏罗勉</item>
+        <item>菩萨</item>
+        <item>拉达那基里</item>
+        <item>暹粒省 </item>
+        <item>西哈努克</item>
+        <item>上丁省</item>
+        <item>柴桢</item>
+        <item>茶胶</item>
+        <item>粤多棉芷</item>
+        <item>白马省</item>
+        <item>拜灵</item>
+        <item>特本克蒙</item>
+    </string-array>
+    <string name="outlet">门市</string>
+    <string name="membership_pay">会员卡</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="other">其他</string>
+    <string name="kh_language">ភាសាខ្មែរ</string>
+    <string name="the_app_is_outdated">该应程序已过时。请更新到最新版本。</string>
+    <string name="add_favorite_order_success">添加喜欢的订单成功</string>
+    <string name="enter_pin_code">请输入PIN码。</string>
+    <string name="languages">语言。</string>
+    <string name="finger_print_face_id"> 指纹/面部ID。</string>
+    <string name="share_us_your_feedback">分享您的反馈。</string>
+    <string name="order_amount">订单金额</string>
+    <string name="deactivate">停用卡</string>
+    <string name="activate"> 激活卡。</string>
+    <string name="please_read_and_agree_terms_of_use"> 请阅读并同意使用条款进行注册。</string>
+    <string name="google">Google 表格。</string>
+    <string name="telegram">电报。</string>
+    <string name="your_order">您的订单</string>
+    <string name="your_order_is_pending">您的订单已下达</string>
+    <string name="your_order_is_in_process">您的訂單进行中</string>
+    <string name="oooops">Oooops!</string>
+    <string name="your_order_is_ready">您的訂單好了</string>
+    <string name="your_order_has_been_complete">您的訂單成功</string>
+    <string name="descriptions">描述</string>
+    <string name="reward_points">气泡点</string>
+    <string name="order">订单</string>
+    <string name="exit_delete_your_item">现有的此页面将清除您的所有项目。你想退出吗？</string>
+    <string name="enable_finger_print">您要弃用指纹吗？</string>
+    <string name="go_to_enable">去启用</string>
+    <string name="you_want_to_deactivate_your_card">您确定要停用卡吗？</string>
+    <string name="you_want_to_activate_your_card">您确定要激活卡吗？</string>
+    <string name="your_card_was_deactivated">您的卡已停用。</string>
+    <string name="your_card_was_activated">您的卡已激活。</string>
+    <string name="touch_to_pay">觸摸付款</string>
+    <string name="plz_enter_your_password">请输入您的密码	</string>
+    <string name="plz_input_current_password">请输入当前密码</string>
+    <string name="plz_input_new_password">请输入 新密码</string>
+    <string name="plz_input_confirm_password">请输入您的确认号码。</string>
+    <string name="send_pin_to_phone_success">发送图钉到电话成功</string>
+    <string name="location_permission_granted">授予位置权限</string>
+    <string name="request_time_out">请求超时</string>
+    <string name="password_has_been_change">密码已被更改</string>
+    <string name="current_password_not_match">当前密码不匹配</string>
+    <string name="plz_select_your_gender">请选择您的性别</string>
+    <string name="plz_input_data">请输入数据</string>
+    <string name="plz_input_valid_email_address"> 请输入有效的电子邮件地址</string>
+    <string name="your_profile_has_been_update">您的个人资料已更新</string>
+    <string name="plz_check_your_internet">请检查您的互联网连接</string>
+    <string name="complete">已完成</string>
+    <string name="ready">好了</string>
+    <string name="top_up">无效 </string>
+    <string name="claim_product">声明产品</string>
+    <string name="claim_discount_birthday">索取折扣生日。</string>
+    <string name="claim_discount">索赔折扣。</string>
+    <string name="claim_allowance">索赔津贴。</string>
+    <string name="claim_birthday">领取生日。</string>
+    <string name="void_pay">无效工资</string>
+    <string name="void_claim_product">无效声明产品</string>
+    <string name="void_pop_up">无效充值</string>
+    <string name="card_issue">卡发行</string>
+    <string name="order_at">在处订单。</string>
+    <string name="order_id">订单ID</string>
+    <string name="pending">待定</string>
+    <string name="in_process">进行中</string>
+    <string name="rejected">拒绝</string>
+    <string name="expired">到日期</string>
+    <string name="readys">好了</string>
+    <string name="completed">已完成</string>
+    <string name="order_received">Order Received</string>
+    <string name="prepare_your_order">Prepare Your Order</string>
+    <string name="order_on_the_way">Order is on the way</string>
+    <string name="outdoor">Out Door</string>
+    <string name="reset">重启</string>
+    <string name="make_sure_you_enter_13_digits">确保输入13位数字锦鲤柬埔寨卡号。</string>
+    <string name="make_sure_you_enter_6_digit">确保输入6位数字锦鲤柬埔寨卡号。</string>
+    <string name="plz_enter_koi_card_number">请输入KOI卡号和序列号以添加会员卡</string>
+    <string name="pin_code_has_been_sent">PIN 码已发送</string>
+    <string name="your_cannot_change_your_birthday"> 您不能改变您的生日</string>
+    <string name="the_password_not_match">密码不匹配</string>
+    <string name="password_at_least_6_character">密码至少6个字符</string>
+    <string name="accept"> 接受。</string>
+    <string name="_8888888888888">8888888888888</string>
+    <string name="_888888">888888</string>
+    <string name="incorrect_phone_email">电话号码/电子邮件不正确</string>
+    <string name="phone_number_already_exit">电话号码已经存在</string>
+    <string name="plz_input_date_of_birth"> 请输入出生日期</string>
+    <string name="your_age_is_unavailable">您的年龄不可用</string>
+    <string name="plz_check_agree_term_and_condition_to_continue">请检查同意的条款和条件以继续</string>
+    <string name="update_customer_info_sucess">成功更新客户信息</string>
+    <string name="u_can_select_ice_or_hot">您只能选择一个冰位或热位！</string>
+    <string name="u_can_select_two_topping">您只能选择两个浇头</string>
+    <string name="plz_selet_sugar_level">请选择糖水平</string>
+    <string name="plz_select_ice_or_hot_level">请选择冰或热水平</string>
+    <string name="update_item">更新项目。</string>
+    <string name="edit_basket">编辑购物蓝。</string>
+    <string name="error_add_to_favorit">错误添加收藏夹</string>
+    <string name="didn_receive_the_email_yet">还没有收到电字邮件吗？请检查您的垃圾邮件文件夹。</string>
+    <string name="emaiL_has_sent">邮件已发送</string>
+    <string name="resend">重发</string>
+    <string name="new_passwords">新密码*</string>
+    <string name="confirm_passwords">确认密码*</string>
+    <string name="exit_and_clear">退出并清除</string>
+    <string name="verify_phone_number">验证电话号码</string>
+    <string name="please_enter_your_phone_number_for_verification"> 请输入您的电话号码进行验证</string>
+    <string name="please_enter_your_pin_code">请输入您的PIN吗。我们一向短信发送了带有代码的号码 </string>
+    <string name="your_session_has_expired">您的会话过期！请重新登录</string>
+    <string name="update_require">需要更新</string>
+    <string name="go_update">去更新 </string>
+    <string name="no_membership_data">没有会员数据</string>
+    <string name="plz_fil_email_or_phone">请填写电子邮件地址或电话号码已重置密码</string>
+    <string name="not_item_found">找不到项目。</string>
+    <string name="reject">拒绝</string>
+    <string name="sugar_level">-唐水平。</string>
+    <string name="ice_level">-并未</string>
+    <string name="topping">-配料</string>
+    <string name="qty">-量</string>
+    <string name="price">-价格</string>
+    <string name="m_point">-点。</string>
+    <string name="bubbles">点。</string>
+    <string name="total">价格</string>
+    <string name="m_qty">量</string>
+    <string name="failed_to_connect_to_server">无法连接服务器</string>
+    <string name="error_add_item">错误添加项目</string>
+    <string name="claim_awesome_gift">声称很棒的礼物</string>
+    <string name="pin_code_must_be_6_digit">PIN码必须为6位数字 </string>
+    <string name="send_pin_error">发送引脚错误</string>
+    <string name="error_facebook_sign_up">Facebook注册错误 </string>
+    <string name="eror_upload_profile">上传个人资料错误</string>
+    <string name="error_edit_profile">编辑个人资料错误</string>
+    <string name="error_sign_up">注册错误</string>
+    <string name="reset_email"><![CDATA[<span>我们已将重设密码电子邮件发送给。<span style=\'font-size:18px\'><B>]]></string>
+    <string name="reset_email2"><![CDATA[</B></span>.请单击重设密码链接以设置新密码。<span/>]]></string>
+    <string name="no_list_inbox_data">沒有列表收件箱數據</string>
+    <string name="no_inbox_found">找不到收件箱</string>
+    <string name="go_to_setting">設置</string>
+    <string name="no_reward_point_list">沒有奖励点</string>
+    <string name="press_again_to_exit_application">再次按退出应用程序。</string>
+    <string name="this_not_support_google_play">This device is not supported Google play service!</string>
+    <string name="track_your_order">Track Your Order</string>
+    <string name="no_help_data">帮不上忙</string>
+    <string name="message_unexpected">Message Unexpected !!</string>
+    <string-array name="reject_array">
+        <item>看起来我们暂时走出了珍珠</item>
+        <item>看起来我们暂时没了魔芋果冻</item>
+        <item>看起来我们暂时没了凉粉</item>
+        <item>看起来我们暂时没了芦荟</item>
+        <item>看起来我们暂时没了椰子果冻</item>
+        <item>看起来我们暂时没了咖啡果冻</item>
+        <item>看起来我们暂时没了绿茶</item>
+        <item>看起来我们暂时没了红茶</item>
+        <item>看起来我们暂时没了乌龙茶</item>
+        <item>看起来我们暂时没冰了</item>
+        <item>看起来我们暂时没有饼干了</item>
+    </string-array>
+    <string name="no_term_condiction"><![CDATA[No Term & Condictions data ...]]></string>
+    <string name="authentication_success">Authentication succeeded!</string>
+    <string name="authetication_failed">Authentication failed</string>
+    <string name="good_news">好消息</string>
+    <string name="please_choose_your_payment">请选择您的付款方式和充值方式</string>
+    <string name="payment_options">付款方式</string>
+    <string name="please_chose_the_amount_to_top_up">请选择充值的金额</string>
+    <string name="transactions_summary">交易摘要</string>
+    <string name="account_number">账号</string>
+    <string name="received_name">收到的名字</string>
+    <string name="pay_by">支付</string>
+    <string name="total_">TOTAL:</string>
+    <string name="next">下一个</string>
+    <string name="your_topup_has_been">您的重置已完成</string>
+    <string name="to_go_to_silver_member">to go Silver Member</string>
+    <string name="to_go_to_gold_member">to go Gold Member</string>
+    <string name="payment_ref">付款凭据</string>
+    <string name="apply_a_voucher">Apply a voucher</string>
+    <string name="voucher">VOUCHER</string>
+    <string name="voucher_code">Voucher Code</string>
+    <string name="apply">Apply</string>
+    <string name="remove_voucher">Remove Voucher</string>
+    <string name="card_balanace">Card Balanace</string>
+    <string name="vattanak_bank">Vattanac Bank</string>
+</resources>

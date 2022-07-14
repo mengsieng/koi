@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Language Change Section-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/changeLanguageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_english"/>
+
+    </LinearLayout>
+    <!--End Language Change Section-->
+
+    <!--Welcome Section-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:layout_gravity="center"
+            style="@style/header_style"/>
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_desc"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            style="@style/font_style_regular"/>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/signInBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sign_in"
+                android:layout_marginRight="2.5dp"
+                android:background="@drawable/border_button"
+                style="@style/font_style_medium"/>
+
+            <Button
+                android:id="@+id/signUpBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sign_up"
+                android:layout_marginLeft="2.5dp"
+                android:background="@drawable/border_button"
+                style="@style/font_style_medium"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/connectFbBtn"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="@string/connect_with_facebook"
+            android:layout_gravity="center"
+            android:background="@drawable/border_button"
+            android:backgroundTint="@color/facebook_button"
+            style="@style/facebook_btn_style"/>
+
+    </LinearLayout>
+    <!--End Welcome Section-->
+
+    <!--Feedback Section-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/share_us"/>
+
+        <TextView
+            android:id="@+id/tvFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_feedback"
+            style="@style/font_style_regular"/>
+
+    </LinearLayout>
+    <!--End Feedback Section-->
+
+</LinearLayout>
