@@ -1,5 +1,6 @@
 package ig.core.android.view.ui.activity.welcome
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.core.content.ContextCompat
 import ig.core.android.BaseActivity
@@ -8,6 +9,7 @@ import ig.core.android.util.ChangeLanguage
 import ig.core.android.util.PrefModule
 import ig.core.android.view.bottomsheet.FeedbackBottomSheet
 import ig.core.android.view.dialog.ChangeLanguageDialog
+import ig.core.android.view.ui.activity.home.HomeActivity
 import ig.core.android.view.ui.activity.login.LoginActivity
 import ig.core.android.view.ui.activity.signup.SignupActivity
 import kotlinx.android.synthetic.main.activity_welcome.*
@@ -33,7 +35,7 @@ class WelcomeActivity: BaseActivity() {
             startNewActivityTop(SignupActivity::class.java, false)
         }
         connectFbBtn.setOnClickListener {
-
+            startActivity(Intent(this, HomeActivity::class.java))
         }
         tvFeedback.setOnClickListener {
             FeedbackBottomSheet().show(supportFragmentManager, "")

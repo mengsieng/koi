@@ -37,9 +37,7 @@
             android:screenOrientation="fullSensor"
             android:noHistory="true"
             android:windowSoftInputMode="stateHidden"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"/>
         <activity
             android:name="ig.core.android.view.ui.activity.main.MainActivity"
             android:configChanges="orientation|screenSize"

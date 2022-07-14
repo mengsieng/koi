@@ -19,6 +19,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/choose_option"
+            style="@style/font_style_medium"
             android:textSize="15sp" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -27,6 +28,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/share_us_your_feedback"
+            style="@style/font_style_medium"
             android:textSize="15sp" />
     </LinearLayout>
 
