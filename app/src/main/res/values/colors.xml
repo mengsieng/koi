@@ -10,7 +10,7 @@
     <color name="koi_black">#333333</color>
     <!-- Default back press toolbar -->
     <color name="color_background">#FAFAFA</color>
-
+    <color name="nav_color">#232322</color>
     <!-- Splash Screen -->
     <!-- End of Splash Screen -->
 

@@ -24,10 +24,10 @@
             android:noHistory="true"
             android:windowSoftInputMode="stateHidden"
             android:exported="true">
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity
             android:name="ig.core.android.view.ui.activity.main.MainActivity"
@@ -35,7 +35,14 @@
             android:windowSoftInputMode="adjustResize">
         </activity>
 
-        <activity android:name="ig.core.android.view.ui.activity.home.HomeActivity" />
+        <activity
+            android:exported="true"
+            android:name="ig.core.android.view.ui.activity.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".view.ui.activity.detail.DetailActivity" />
         <receiver android:name=".service.broadcast.MyReceiver"
             android:exported="true">

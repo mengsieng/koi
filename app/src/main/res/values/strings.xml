@@ -49,9 +49,9 @@
     <string name="reset_your_password">RESET YOUR PASSWORD</string>
     <string name="sign_up">Sign Up</string>
     <string name="home_nav_label">HOME</string>
-    <string name="outlets_nav_label">OUTLETS</string>
-    <string name="order_nav_label">ORDER</string>
-    <string name="koi_pay_nav_label">KOI PAY</string>
+    <string name="stores_nav_label">STORES</string>
+    <string name="scan_nav_label">SCAN</string>
+    <string name="koi_pay_nav_label">KOI CARD</string>
     <string name="account_and_settings"><![CDATA[ACCOUNT & SETTINGS]]></string>
     <string name="hello">Hello,</string>
     <string name="you_re_a_black_member">YOU\'RE A</string>
